@@ -1,0 +1,31 @@
+name = "CSCReactor_DevRuns"
+uuid = "7b1af291-0491-42cb-9e6e-4cbb46733c43"
+authors = ["josePereiro <jose.pereiro.personal@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[deps]
+CSCReactor_jlOs = "388fa371-fe3d-443c-9121-b1096b353e97"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+MassExport = "bdad8087-1bf2-41e1-917c-1d9e34c2a82c"
+NDHistograms = "c9719566-2c26-451b-95bc-5aa9e2747dfa"
+Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+
+[compat]
+CairoMakie = "=v0.12.12"
+DataStructures = "0.18.20"
+Makie = "=v0.21.12"
+MassExport = "1.0.2"
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

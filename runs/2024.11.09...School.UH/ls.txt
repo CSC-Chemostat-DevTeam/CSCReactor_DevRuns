@@ -1,0 +1,346 @@
+/2do reporte M y E. I-25.docx
+/Alm+Cac+Nac.pdf
+/Alm-Cac+Mil.pdf
+/Panfilo - Vivir del cuento_1.0_apkcombo.com.apk
+/ViewerData.txt
+/+1A+RLC/+1A+Circ RLC de CA (16).mp4
+/+1A+RLC/+1A+Image+Circ RLC de CA (16).pptx
+/+1A+RLC/+1A+Res+Pot+Maxwell.mp4
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva1.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva10.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva11.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva12.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva13.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva14.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva15.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva16.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva17.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva18.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva2.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva3.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva4.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva5.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva6.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva7.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva8.JPG
+/+1A+RLC/+1A+Circ RLC de CA (16)/Diapositiva9.JPG
+/+1A+Sem10/+1A+ALLT9Campo B (16).mp4
+/+1A+Sem10/+1A+ALLT9Campo B (16).pptx
+/+1A+Sem10/+1A+INDUCCION.mp4
+/+1A+Sem10/+1A+INDUCCION.pptx
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva1.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva10.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva11.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva12.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva13.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva14.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva15.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva16.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva17.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva2.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva3.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva4.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva5.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva6.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva7.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva8.GIF
+/+1A+Sem10/+1A+Gif+ALLT9Campo B (16)/Diapositiva9.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva1.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva10.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva11.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva12.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva13.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva14.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva2.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva3.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva4.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva5.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva6.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva7.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva8.GIF
+/+1A+Sem10/+1A+Gif+INDUCCION/Diapositiva9.GIF
+/.fseventsd/fseventsd-uuid
+/12C+Mec+Bioq/S1+C1-T1+25+Introd+Vetores.pptx
+/12C+Mec+Bioq/S1+C2-T1+25+Tratamiento Incertidumbres.pptx
+/12C+Mec+Bioq/S1+C3-T2+25+Cin Unid+Gráf.pptx
+/12C+Mec+Bioq/S10+C16-TV+25+Hidrodin..pptx
+/12C+Mec+Bioq/S11+C17-TVI+25+MAS.pptx
+/12C+Mec+Bioq/S12+C18-TVI+25+Osc Forz+Reson..pptx
+/12C+Mec+Bioq/S13+C19-TVI+25+Ondas Mec..pptx
+/12C+Mec+Bioq/S2+C4-T2+25+Cin Bid+Vect+Proy.pptx
+/12C+Mec+Bioq/S2+C5-T3+25+Din 3 Leyes N.pptx
+/12C+Mec+Bioq/S2+C6-T3+25+Leyes f+fricción.pptx
+/12C+Mec+Bioq/S3+C7-T3+25+W y K.pptx
+/12C+Mec+Bioq/S4+C8-T3+25+U+F Conserv.pptx
+/12C+Mec+Bioq/S5+C9-T3+25+k+M+U(e).pptx
+/12C+Mec+Bioq/S6+C10-TIV+25+Sis P+CM+P+2da Ley.pptx
+/12C+Mec+Bioq/S7+C11-TIV+25+Rot+I+Torque+2da Ley.pptx
+/12C+Mec+Bioq/S8+C12-TIV+25T+R y L.pptx
+/12C+Mec+Bioq/S8+C13-TIV+25+3 Leyes Cons.pptx
+/12C+Mec+Bioq/S8+C14-TIV+25+J+Choques.pptx
+/12C+Mec+Bioq/S9+C15-TV+25+Hidrostát..pptx
+/1A+Jael EF DOBLE de MyE/B+EFE2+5ta.docx
+/1A+Jael EF DOBLE de MyE/EFO (A) M y E 19-20.pdf
+/1A+Jael EF DOBLE de MyE/EFO (A)+ok M y E 24-25.pdf
+/1A+Jael EF DOBLE de MyE/EFO (B) +ok M y E 24-25.pdf
+/1A+Jael EF DOBLE de MyE/EFO (B) M y E 19-20.pdf
+/1A+Mec+Bioq+2025/1ro BBM 2do Sem 2024-25.doc
+/1A+Mec+Bioq+2025/Félix-P1-Bioquímica-Mecánica-febrero 2025.doc
+/1A+Mec+Bioq+2025/P1-Mecánica-Bioq1ero-nov2019.docx
+/1A+Mec+Bioq+2025/Biol22+HR de Mecánica (12)/Parte I Res Mecánica (12).pdf
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C1-T1-17-18+I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C1-T1-17-18-Introd+Vetores.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C1-T1-17-18.pdf
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C10-T3-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C10-T3-17-18-k+M+U(e).pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C11-TIV-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C11-TIV-17-18-Sis P+CM+P+2da Ley.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C12-TIV-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C12-TIV-17-18-Rot+I+Torque+2da Ley.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C13-TIV-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C13-TIV-17-18-T+R y L.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C14-TIV-17-18-3 Leyes Cons.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C14-TIV-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C15-TIV-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C15-TIV-17-18-J+Choques.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C16-TV-17-18-Hidrostát..pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C16-TV-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C16-TV-OLD.ppt
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C17+C18-TV-OLD.ppt
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C17-TV-17-18-I-Hidrodin..pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C18-TV-17-18-I-Viscosidad.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C19-TVI-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C19-TVI-17-18-MAS.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C2-T1-17-18+I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C2-T1-17-18-Alg Vect.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C2-T1-17-18.pdf
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C20-TVI-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C20-TVI-17-18-Osc Forz+Reson..pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C21-TVI-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C21-TVI-17-18-Ondas Mec..pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C3-T2-17-18-Cin Unid+Gráf.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C3-T2-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C4-T1-17-18+I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C4-T1-17-18-Cin Bid+Vect+Proy.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C5-T2-17-18+Cin Ampliación.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C5-T2-17-18+I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C6-T3-17-18-Din 3 Leyes N.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C6-T3-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C7-T3-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C7-T3-17-18-Leyes f+fricción.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C8-T3-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C8-T3-17-18-W y K.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C9-T3-17-18-I.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/C9-T3-17-18-U+F Conserv.pptx
+/1A+Mec+Bioq+2025/Bioq+Referencia+C de FI 2018/E-T1+CP1+Tratamiento Incertidumbres.pptx
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/Ad-Hidrod-Giancoli.docx
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/AnexoCPProy.doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP1(Vectores)(13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP10FI(TyR)(13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP11FI ConsE(13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP12FI(ConsP)(13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP13FI (consL)(13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP14F1(EstFluidos)(13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP15F1(DinFluidos)(13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP16(Oscil).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP17(Ondas).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP2(CinEyU) (13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP3FI(CinBidPro)(13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP4FI       (CinR)      (13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP5 FI(Dsinf)(13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP6F1(Dconf)(13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP7FI(WyE)(13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP8 CurvasEnergía (13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/BiolCP9F1(SPyCM)(13-14).doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/CPVectores.pdf
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/Copia de seguridad de BiolCP10FI(TyR)(13-14).wbk
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/Parche9.36.docx
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/ParcheLey Conservació.docx
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/PluslLarisaDinámFluidos.doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/ResumenAlgVectorial.doc
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/ResumenAlgVectorial.pdf
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/Fig+ DinFluidos/#Reynolds.JPG
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/Fig+ DinFluidos/LPoiseuille.JPG
+/1A+Mec+Bioq+2025/Bioq+referencia+CPdeF1 (13-14)/Fig+ DinFluidos/n-vs-presión.JPG
+/1A+Mec+Bioq+2025/Microb+Mec/24-P1-Mecánica-Microbiología-AMPLIO.pdf
+/1A+Mec+Bioq+2025/Microb+Mec/Para Félix-Micro Mecánica nueva.pptx
+/1A+Mec+Bioq+2025/Microb+Mec/[freemake.com LOGO] Doime 02.mp4
+/1A+Mec+Bioq+2025/Microb+Mec/[freemake.com LOGO] Doime 06.mp4
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/24-P1-Mecánica-Microbiología-AMPLIO.pdf
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/Biol+T2+CP1+Cin+Proy+MCU (16,34p) DESGLOSAR.docx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/Biol+T2+CP1+Cin+Uni+Bi+Dim.docx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/Biol+T2+CP2+Proy+MCU.docx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/Biol+T3+CP3+Din con y sin f.docx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/Biol+T3+CP4+ (W y E) (19, 40,p).docx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/Biol+T4+CP5+CM y ConsP(14,29p)..docx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/Biol+T4+CP6.A+Din Rot (14, 31) Se Une Con 6 como 6.docx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/Biol+T4+CP6.B+L y ConsL ( 14, 34) Se une Con 5 Como 6.docx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/Biol+T5+CP7+Hidrostática (14,30p).docx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/Biol+T5+CP8+Hidrodinámica (14,39p).docx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/Biol+T6+CP10(Ondas)Va Como 10.doc
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/Biol+T6+CP9-A(Oscil).docx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/BiolCP2(CinEyU) (13-14)+REV+ADICIONAR.doc
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/BiolCP3FI(CinBidPro)(13-14)+REV+ADICIONAR.doc
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/MEC+All CyCP.PNG
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+CP+1/Para Félix-Micro Mecánica nueva.pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/24-P1-Mecánica-Microbiología-AMPLIO.pdf
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T1+C1+Introd+Vect.(15).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T2+C2+Cin Unid+Bid.(14).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T2+C3+Proy+MCU(12).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T3+C4-Din 3 Leyes N(14).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T3+C5-Leyes f+fricción(15).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T3+C6+W y E(14).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T3+C7+E Pot. y Cons de E(15).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T4+C10 Cons L (12).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T4+C8 CM y P (13).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T4+C8 CM y P (14).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T4+C9 Choques+TyR(13).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T5+C11+Hidrost. (16).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T5+C12+Hidrod.+(15).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T6+C13+MAS (15).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/E-T6+C14+Ondas (13).pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/MEC+All CyCP.PNG
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/NO VA NOW+Tratamiento Incertidumbres.pptx
+/1A+Mec+Bioq+2025/Microb+Mec/2do+Mec+Clases pp/Para Félix-Micro Mecánica nueva.pptx
+/1A+MyE+Finales 2do 2024/A+EFE2+5ta.docx
+/1A+MyE+Finales 2do 2024/B+EFE2+5ta.docx
+/1A+MyE+Finales 2do 2024/EF(3ra Conv)-2023-MyE-Biol.+R+Ok.pdf
+/1A+MyE+Finales 2do 2024/EFO (A) M y E 19-20.pdf
+/1A+MyE+Finales 2do 2024/EFO (B) M y E 19-20.pdf
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/Mundial 1A Mec.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/Mundial 1A Mec.pdf
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/Mundial 1A MyE.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/Mundial 1A MyE.pdf
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/Mundial 1B Mec.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/Mundial 1B Mec.pdf
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/Mundial 1B MyE.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/Mundial 1B MyE.pdf
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/E1.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/E2.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/E3.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/E4.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/E5 y E6.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/E7 y E8.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/M1.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/M2.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/M3.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/M4.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/M5.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/M6.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/M7.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/M8.docx
+/1A+MyE+Finales 2do 2024/++24 +4 mundiales/+24MUNDIALES/M9 y 10.docx
+/1A+MyE+Finales 2do 2024/19+I+EFE/A+EFE2+5ta.docx
+/1A+MyE+Finales 2do 2024/19+I+EFE/A+EFE2+5ta.pdf
+/1A+MyE+Finales 2do 2024/19+I+EFE/A+F3.docx
+/1A+MyE+Finales 2do 2024/19+I+EFE/B+EFE2+5ta.docx
+/1A+MyE+Finales 2do 2024/19+I+EFE/B+EFE2+5ta.pdf
+/1A+MyE+Finales 2do 2024/19+I+EFE/~$A+F3.docx
+/1A+MyE+Finales 2do 2024/19+I+EFE/~$EFE2+5ta.docx
+/1A+MyE+Finales 2do 2024/1A+EFO Biol 2024/EFO (A) M y E Biol 24.docx
+/1A+MyE+Finales 2do 2024/1A+EFO Biol 2024/EFO (A) M y E Biol 24.pdf
+/1A+MyE+Finales 2do 2024/1A+EFO Biol 2024/EFO (B) M y E 2024.docx
+/1A+MyE+Finales 2do 2024/1A+EFO Biol 2024/EFO (B) M y E 2024.pdf
+/1A+MyE+Finales 2do 2024/1A+Jael EF DOBLE de MyE/B+EFE2+5ta.docx
+/1A+MyE+Finales 2do 2024/1A+Jael EF DOBLE de MyE/EFO (A) M y E 19-20.pdf
+/1A+MyE+Finales 2do 2024/1A+Jael EF DOBLE de MyE/EFO (A)+ok M y E 24-25.pdf
+/1A+MyE+Finales 2do 2024/1A+Jael EF DOBLE de MyE/EFO (B) +ok M y E 24-25.pdf
+/1A+MyE+Finales 2do 2024/1A+Jael EF DOBLE de MyE/EFO (B) M y E 19-20.pdf
+/1A+MyE+Finales 2do 2024/24++2daConv EF/24+A+EF2da+Mec+Elect.docx
+/1A+MyE+Finales 2do 2024/24++2daConv EF/24+A+EF2da+Mec+Elect.pdf
+/1A+MyE+Finales 2do 2024/24++2daConv EF/24+A+EF2da+Mec+Microb.docx
+/1A+MyE+Finales 2do 2024/24++2daConv EF/24+A+EF2da+Mec+Microb.pdf
+/1A+MyE+Finales 2do 2024/24++2daConv EF/24+B+EF2da+Mec+Elect.docx
+/1A+MyE+Finales 2do 2024/24++2daConv EF/24+B+EF2da+Mec+Elect.pdf
+/1A+MyE+Finales 2do 2024/24++2daConv EF/24+B+EF2da+Mec+Microb.docx
+/1A+MyE+Finales 2do 2024/24++2daConv EF/24+B+EF2da+Mec+Microb.pdf
+/1A+MyE+Finales 2do 2024/26+I+EFE/EFE-3-MyE(A).docx
+/1A+MyE+Finales 2do 2024/26+I+EFE/EFE-3-MyE(B).docx
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/Bioq-A-2013-14+R.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/Bioq-B-2013-14+R.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/EFE-(2)-F1-Boq-16-17.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/EFE-De-FI+Resp-2014.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/EFO (A) Solo M 19-20.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/EFO (A) Sólo E 19-20.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/EFPremio-FI-2014+R.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/EFSuficiencia-FI-2017.docx
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/OrdA-FI-2014+R.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/OrdB-FI-2014+R.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/PI-FI-Bioq-TemA(+R).doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/PreguntasFyVdeFI.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/SelecciónFinal+FI/Completando-20-de FísicaI/Carretilla Variante(2)-del-Serway.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/SelecciónFinal+FI/Completando-20-de FísicaI/Prob+17.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/SelecciónFinal+FI/Completando-20-de FísicaI/Prob+18.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/SelecciónFinal+FI/Completando-20-de FísicaI/Prob+19.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/SelecciónFinal+FI/Completando-20-de FísicaI/Prob+20.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/SelecciónFinal+FI/Completando-20-de FísicaI/Variante-Irodov/Bloques-Irodov.JPG
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/SelecciónFinal+FI/Completando-20-de FísicaI/Variante-Irodov/Soln-Irod(2).JPG
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/SelecciónFinal+FI/Completando-20-de FísicaI/Variante-Irodov/Soln-Irod(3).JPG
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/SelecciónFinal+FI/FI-Guia+Resp(hasta#16)/FIUpProb2012.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/SelecciónFinal+FI/FI-Guia+Resp(hasta#16)/RespFIUpProb2012-hasta#16.doc
+/1A+MyE+Finales 2do 2024/EF+2da vuelta/SelecciónFinal+FI/FI-Guia+Resp(hasta#16)/~$spFIUpProb2012-hasta#16.doc
+/1A+MyE+Finales 2do 2024/Exámenes Viejos-Con R/1-A-EFE-2013-F2-Biol.+R.docx
+/1A+MyE+Finales 2do 2024/Exámenes Viejos-Con R/2-B-2013-EFE-F2-Biol.+R..docx
+/1A+MyE+Finales 2do 2024/Exámenes Viejos-Con R/3-EFEdeFII -11-12Agosto.doc
+/1A+MyE+Finales 2do 2024/Exámenes Viejos-Con R/4-EFE-FI13-14-(Arrastre).doc
+/1A+MyE+Finales 2do 2024/Exámenes Viejos-Con R/5-F2A-11-12-+R.doc
+/1A+MyE+Finales 2do 2024/Exámenes Viejos-Con R/6-F2B-11-12-+R.doc
+/A+1I/20241224_092215.jpg
+/A+1I/20241224_092225.jpg
+/A+1I/El 4to Rey Mago (1).mp4
+/A+1I/Friday the 13th A New Beginning (1985)_.mp4
+/A+1I/Friday the 13th A New Beginning (1985)_.srt
+/A+1I/vidcombo_1.2.0.exe
+/A+1I/watch 1.htm
+/A+1I/y2mate.com - Alexis Valdes entrevista a Luis Silva el Actor que interpreta el personaje tan querido Panfilo_360p.mp4
+/A+1I/y2mate.com - Alvarez Guedes Solo lo mejor_360.mp4
+/A+1I/y2mate.com - Azúcar_360p.mp4
+/A+1I/y2mate.com - BRECHT Otto Ortiz 7 SEPT 2023_360p.mp4
+/A+1I/y2mate.com - Detalles sobre el suicidio del hijo de Fidel Castro Dígalo Aquí Seg 4_360.mp4
+/A+1I/y2mate.com - Detrás de la fachada La fiesta de todos 1982 Programa incompleto_360p.mp4
+/A+1I/y2mate.com - Diario de un cubano_720pHF.mp4
+/A+1I/y2mate.com - El Bacán de la Vida tiene la solución para Cuba y no incluye a DíazCanel I UniVista TV_360p.mp4
+/A+1I/y2mate.com - El Período Especial reunión de payasos y amistades que duran poco LRPD 01 Osvaldo Doimeadiós_720pHF.mp4
+/A+1I/y2mate.com - El Wajay canciones de la infancia y los comerciales cubanos LRPD 07 Visti Cárdenas_1080.mp4
+/A+1I/y2mate.com - Floro en Paris_360p.mp4
+/A+1I/y2mate.com - Floro y el Inspector_360.mp4
+/A+1I/y2mate.com - Humor Cubano Enrique Arredondo 1 de 2 avi_360p.mp4
+/A+1I/y2mate.com - Humor Cubano Otto Ortiz Entrevista a un Buzo y un Salvavidas Michel Pentón y Leandro Cáceres_360p.mp4
+/A+1I/y2mate.com - Humor CubanoLas Vacaciones en Cuba con Michel PentónRikimbiliMaracasEl Colorao Teatro Karl Marx_360p.mp4
+/A+1I/y2mate.com - LOS CUBANOS NO LE TIENEN MIEDO A LOS HURRACNES MONOLOGO DE IVAN CAMEJO_360p.mp4
+/A+1I/y2mate.com - La Llave investiga el robo de cemento implicados El Habanero Bujia EL viejo_360p(1).mp4
+/A+1I/y2mate.com - La Llave investiga el robo de cemento implicados El Habanero Bujia EL viejo_360p.mp4
+/A+1I/y2mate.com - La máquina del tiempo problemas del primer mundo y el cubano en un resort LRPD 09 Iván Camejo_720p.mp4
+/A+1I/y2mate.com - Lo que NO SABÍAS de los ACTORES de VIVIR DEL CUENTO _360P.mp4
+/A+1I/y2mate.com - PÁNFILO les DECLARA la guerra a Díaz Canel y a Raúl Castro está ocurriendo lo peor _360.mp4
+/A+1I/y2mate.com - Pánfilo habla con Carlos_360p.mp4
+/A+1I/y2mate.com - Ruperto visita un centro de caballeros_360p.mp4
+/A+1I/y2mate.com - URGENTE ACABA DE PASAR PÁNFILO SE VA A MIAMI ANTE LAS AMENAZAS DE DIAZ CANEL _360.mp4
+/A+1I/y2mate.com - URGENTE Pánfilo enfrenta CONSECUENCIAS tras criticar a dictadura cubana VIDEO COMPLETO_360P.mp4
+/A+1I/y2mate.com - Un viaje a Argentina las parejas cubanas y el estudio del color negro LRPD 08 Kike Quiñones_720pHF.mp4
+/A+1I/y2mate.com - Vivir del Cuento Control de presión_360P.mp4
+/A+1I/y2mate.com - Vivir del Cuento se Muda a Miami La Verdad Detrás de los Rumores_360p.mp4
+/A+1I/y2mate.com - fidel tratando de ir al cielo_360p.mp4
+/A+2I/1 HORA DE TIKTOKS QUE DE VERDAD SON GRACIOSOS _ Mariale(1).mp4
+/A+2I/1 HORA DE TIKTOKS QUE DE VERDAD SON GRACIOSOS _ Mariale.mp4
+/A+2I/5D)Benny Hill - The Naughty Early Years_ Ep 8 (1972 to 1974)_ Set 2 Vol 2..mp4
+/A+2I/El motor de arranque (parte 3).mp4
+/A+2I/El motor de arranque - capítulo 5. Dir. Juan Carlos Travieso. Canal Habana..mp4
+/A+2I/El motor de arranque - prog 4 Antigüedades. Dir. Juan Carlos Travieso 2021Cubavision.mp4
+/A+2I/El motor de arranque Capitulo 1 Las olimpiadas (copia mejorada). Dir. Juan Carlos Travieso.mp4
+/A+2I/El motor de arranque Programa 6 .mp4
+/A+2I/El motor de arranque Programa 9 Los carnavales. Dir. Juan Carlos Travieso 2021 Cubavisión RTV.mp4
+/A+2I/Los TikTok más Graciosos 2023🤣_ Recopilación Tiktok🤣😂 @MatWolf16. #16.mp4
+/A+2I/Luis Silva y Ramón Mustelier en el Motor de arranque. Dirección Juan Carlos Travieso.mp4
+/A+2I/THE BENNY HILL SHOW.mp4
+/A+2I/The Benny Hill Show E36 PL.mp4
+/A+2I/mini alien.mp4
+/A+2I/videoplayback.mp4
+/A+2I/videoplayback2.mp4
+/Cons +Larisa/DeLarisaC P11momangul.doc
+/Cons +Larisa/DeLarisaC P7conser.energía.doc
+/Cons +Larisa/DeLarisaC P8centrmas,cantmovlineal.doc
+/Cons +Larisa/DeLarisaC P9Choq,dinamrot..doc
+/FOUND.000/FILE0000.CHK
+/System Volume Information/IndexerVolumeGuid
+/System Volume Information/WPSettings.dat
