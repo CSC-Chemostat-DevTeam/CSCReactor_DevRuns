@@ -1,29 +1,3 @@
-# ---.-.- ...- -- .--- . .- .-. . ..- .--.-
-let
-    folder = "/Volumes/NO NAME"
-    _files = String[]
-    for (root, dirs, files) in walkdir(folder)
-        # println("Directories in $root")
-        # for dir in dirs
-        #     println(joinpath(root, dir)) # path to directories
-        # end
-        for file in files
-            path = joinpath(root, file)
-            push!(_files, path)
-        end
-    end
-
-    out_file = joinpath(@__DIR__, "out.txt")
-    @show out_file
-    open(out_file, "w") do io
-        for file in _files
-            file = replace(file, "/Volumes/NO NAME/" => "/")
-            println(io, file)
-        end
-    end
-end
-
-
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
 begin
     using CSCReactor_DevRuns
@@ -39,11 +13,10 @@ let
     nothing
 end
 
-
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
 # Wash protocole
 let
-    CHIDs = ["CH3", "CH5"]
+    CHIDs = ["R3", "R5"]
 
     for CHID in CHIDs
         CH = CONFIG[CHID]

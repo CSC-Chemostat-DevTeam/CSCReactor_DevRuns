@@ -2,24 +2,24 @@
 # COMMONS
 
 # CHEMOSTATS
-CH1 = Dict(
+CH2 = Dict(
     # EXTRAS
-    "ch.name" => "CH1",
+    "R.name" => "R2",
     "run.dry" => false,
     
     # PIN LAYOUT
     "stirrel.pin" => STIRREL_PIN,
-    "pump.air.in.pin" => PUMP_1_PIN,
-    "pump.medium.out.pin" => PUMP_2_PIN,
-    "pump.medium.in.pin" => PUMP_3_PIN,
-    "laser.pin" => CH1_LASER_PIN,
-    "led1.pin" => CH1_CONTROL_LED_PIN,
-    "led2.pin" => CH1_VIAL_LED_PIN,
+    "pump.air.in.pin" => nothing,
+    "pump.medium.out.pin" => PUMP_4_PIN,
+    "pump.medium.in.pin" => PUMP_5_PIN,
+    "laser.pin" => CH2_LASER_PIN,
+    "led.control.pin" => CH2_CONTROL_LED_PIN,
+    "led.sample.pin" => CH2_SAMPLE_LED_PIN,
     
     # CONFIG
-    "vial.working_volume" => 25.0, # mL [MEASSURED]
+    "vial.working_volume" => 25.0, # mL #TODO [MEASSURED]
     
-    "pump.medium.in.per_pulse_volume" => 0.036, # mL [MEASSURED]
+    "pump.medium.in.per_pulse_volume" => 0.02, # mL
     "pump.medium.in.pulse_duration" => 50.0, # ms
     
     "pump.medium.out.pulse_duration" => 150.0, # ms
@@ -38,14 +38,14 @@ CH1 = Dict(
     "pump.medium.out.pulse_period.min" => 0,
     "pump.medium.out.pulse_period.target" => nothing,
 
-    "stirrel.enable" => true,
+    "stirrel.enable" => false, # CH1 on control
     "stirrel.pulse_period.min" => 3,
     "stirrel.pulse_period.target" => nothing,
 
-    "pump.air.in.enable" => true,
+    "pump.air.in.enable" => false, # CH1 on control
     "pump.air.in.pulse_period.min" => 0,
     "pump.air.in.pulse_period.target" => nothing,
 )
 
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
-return nothing
+nothing

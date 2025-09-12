@@ -8,6 +8,7 @@ function find_port()
         # Add here more heuristics
         port == "/dev/cu.usbmodem14101" && return port
         port == "/dev/cu.usbmodem14201" && return port
+        port == "/dev/cu.usbmodem141101" && return port
     end
     error("Port not found, ports: ", plist)
 end

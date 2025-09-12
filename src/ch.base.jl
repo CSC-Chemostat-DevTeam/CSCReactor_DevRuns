@@ -1,8 +1,8 @@
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
-# Setup
+# MARK: ch_set_pin_modes!
 function ch_set_pin_modes!(ch::Dict)
     ch["run.dry"] && return
-    chname = get(ch, "ch.name", "?")
+    chname = get(ch, "R.name", "?")
     for (pinid, mode) in [
             ("pump.air.in.pin", OUTPUT),
             ("pump.medium.in.pin", OUTPUT),
@@ -10,25 +10,32 @@ function ch_set_pin_modes!(ch::Dict)
             ("pump.medium.out.pin", OUTPUT),
             ("pump.medium.out.pin", OUTPUT),
             ("laser.pin", OUTPUT),
-            ("led1.pin", INPUT_PULLUP),
-            ("led2.pin", INPUT_PULLUP),
+            ("led.control.pin", INPUT_PULLUP),
+            ("led.sample.pin", INPUT_PULLUP),
         ]
         pin = ch[pinid]
         isnothing(pin) && continue
         isempty(pin) && continue
         # $INO:PIN-MODE:PIN:MODE%
-        logcmt = string(chname, ".pin-mode.pin.", pinid)
-        res = send_csvcmd(SP, "INO", "PIN-MODE", pin, mode; logcmt)
+        res = send_csvcmd(SP, "INO", "PIN-MODE", pin, mode; 
+            log_extras = Dict("ch_set_pin_modes!" => "$chname.pin-mode.pin.$pinid")
+        )
         @assert ch_success(res)
     end
 end
 
 
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
-# OD System
-function _meassure_OD(ch::Dict; v = true)
+# MARK: _meassure_OD
+function _meassure_OD(ch::Dict; v = true, log_extras = Dict())
     get(ch, "laser.enable", true) || return
-    chname = get(ch, "ch.name", "?")
+    chname = get(ch, "R.name", "?")
+
+    log_extras = Dict(
+        log_extras...,
+        "chname" => chname,
+    )
+
 
     if ch["run.dry"] 
         v && @info("READING OD [DRY]", 
@@ -41,33 +48,45 @@ function _meassure_OD(ch::Dict; v = true)
     # turn on laser (two for savety)
     laser_pwm = rand(20:10:ch["laser.pwm.max"])
     for it in 1:2
-        logcmt = string(chname, ".laser-on.attempt$it")
         send_csvcmd(SP, "INO", "ANALOG-WRITE", 
             ch["laser.pin"], laser_pwm; 
-            logcmt
+            log_extras = Dict(
+                "_meassure_OD.cmts" => "laser-on.attempt.$it", 
+                log_extras...
+            )
         ) 
     end
     sleep(get(ch, "laser.estabilization.time", 0.05))
 
     # meassure leds
     ## led1 
-    logcmt = string(chname, ".pulse-in.led1")
     msr_time_led1 = get(ch, "led1.meassure.time", 100) # ms
     # $INO:PULSE-IN:PIN:TIME%
-    res1 = send_csvcmd(SP, "INO", "PULSE-IN", ch["led1.pin"], msr_time_led1; logcmt)
+    res1 = send_csvcmd(SP, "INO", "PULSE-IN", ch["led.control.pin"], msr_time_led1; 
+        log_extras = Dict(
+            "_meassure_OD.cmts" => "pulse-in.led1",
+            log_extras...
+        )
+    )
     
     ## led2 
-    logcmt = string(chname, ".pulse-in.led2")
     msr_time_led2 = get(ch, "led2.meassure.time", 100) # ms
     # $INO:PULSE-IN:PIN:TIME%
-    res2 = send_csvcmd(SP, "INO", "PULSE-IN", ch["led2.pin"], msr_time_led2; logcmt)
+    res2 = send_csvcmd(SP, "INO", "PULSE-IN", ch["led.sample.pin"], msr_time_led2; 
+        log_extras = Dict(
+            "_meassure_OD.cmts" => "pulse-in.led2",
+            log_extras...
+        )
+    )
 
     # turn off laser
     for it in 1:2
-        logcmt = string(chname, ".laser-off.attempt$it")
         send_csvcmd(SP, "INO", "ANALOG-WRITE", 
             ch["laser.pin"], 0; 
-            logcmt
+            log_extras = Dict(
+                "_meassure_OD.cmts" => "laser-off.attempt.$it",
+                log_extras...
+            )
         )
     end
 
@@ -92,22 +111,22 @@ function meassure_OD(ch; v = true)
 end
 
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
-# pump.air
+# MARK: ch_air_pulse
 function ch_air_pulse(ch; v = true)
     ch_periodic_s_pulse(ch, "pump.air"; v)
 end
 
-# pump.medium.out
+# MARK: ch_media_out_pulse
 function ch_media_out_pulse(ch; v = true)
     ch_periodic_s_pulse(ch, "pump.medium.out"; v)
 end
 
-# pump.medium.in
+# MARK: ch_media_in_pulse
 function ch_media_in_pulse(ch; v = true)
     ch_periodic_s_pulse(ch, "pump.medium.in"; v)
 end
 
-# stirrel
+# MARK: ch_stirrel_pulse
 function ch_stirrel_pulse(ch; v = true)
     ch_periodic_s_pulse(ch, "stirrel"; v)
 end
@@ -126,25 +145,35 @@ end
 
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
 # Base
-function __ch_ds_pulse(ch::Dict, sysid::String; deft_dur = 100, v = true)
+function __ch_ds_pulse(ch::Dict, sysid::String; 
+        deft_dur = 100, v = true, 
+        log_extras = Dict()
+    )
     get(ch, "$sysid.enable", true) || return
-    chname = get(ch, "ch.name", "?")
+    chname = get(ch, "R.name", "?")
+    log_extras = Dict(;
+        "chname" => chname,
+        "sysid" => sysid,
+        log_extras...
+    )
 
     ptime = get!(ch, "$sysid.pulse_duration", deft_dur) # ms
     pin = get(ch, "$sysid.pin", nothing)
     if !get(ch, "run.dry", false)
         isnothing(pin) && return
-        logcmt = string(chname, ".ds-pulse.", sysid)
         # $INO:DIGITAL-S-PULSE:PIN1:VAL01:TIME1:VAL11...%
         res = send_csvcmd(SP, "INO", "DIGITAL-S-PULSE", 
             pin, 1, ptime, 0;
-            logcmt
+            log_extras = Dict(
+                "__ch_ds_pulse.cmts" => ".ds-pulse",
+                log_extras...
+            )
         )
         @assert ch_success(res)
     end
 
     v && @info(uppercase(sysid), 
-        ch = get(ch, "ch.name", "?"),
+        ch = get(ch, "R.name", "?"),
         pin, ptime
     )
 end
@@ -156,21 +185,28 @@ function ch_ds_pulse(ch::Dict, sysid::String; deft_dur = 100, v = true)
 end
 
 function __ch_as_pulse(ch::Dict, sysid::String, pwm0, dur, pwm1)
-    chname = get(ch, "ch.name", "?")
+    chname = get(ch, "R.name", "?")
     pin = get(ch, "$sysid.pin", nothing)
     isnothing(pin) && return
-    logcmt = string(chname, ".as-pulse.", sysid)
+    log_extras = Dict(;
+        "chname" => chname,
+        "sysid" => sysid,
+        log_extras...
+    )
     # $INO:ANALOG-S-PULSE:PIN1:VAL01:TIME1:VAL11...%
     res = send_csvcmd(SP, "INO", "ANALOG-S-PULSE", 
         pin, pwm0, dur, pwm1;
-        logcmt
+        log_extras = Dict(
+            "__ch_as_pulse.cmts" => "as-pulse",
+            log_extras...
+        )
     )
     @assert ch_success(res)
 end
 
 function _ch_as_pulse(ch::Dict, sysid::String; deft_dur = 100, deft_pwm = 255, v = true)
     get(ch, "$sysid.enable", true) || return
-    chname = get(ch, "ch.name", "?")
+    chname = get(ch, "R.name", "?")
 
     dur = get!(ch, "$sysid.pulse_duration", deft_dur) # ms
     pwm0 = get!(ch, "$sysid.pulse_pwm0", deft_pwm) # 0:255
@@ -206,7 +242,7 @@ function __ch_periodic_s_pulse(ch, sysid; v = true)
         __ch_ds_pulse(ch, sysid; v = false)
         
         # info
-        chname = get(ch, "ch.name", "?")
+        chname = get(ch, "R.name", "?")
         v && @info(uppercase(sysid), 
             ch = chname,
             target_period = _tper,

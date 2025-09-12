@@ -25,10 +25,10 @@ end
 # Setup
 
 CHIDs = [
-    "CH2", 
-    "CH3", 
-    "CH4", 
-    "CH5"
+    "R2", 
+    "R3", 
+    "R4", 
+    "R5"
 ]
 nothing
 
@@ -40,8 +40,8 @@ let
             STIRREL_PIN, OUTPUT,
 
             CONFIG[CHID]["laser.pin"], OUTPUT,
-            CONFIG[CHID]["led2.pin"], INPUT_PULLUP,
-            CONFIG[CHID]["led1.pin"], INPUT_PULLUP;
+            CONFIG[CHID]["led.sample.pin"], INPUT_PULLUP,
+            CONFIG[CHID]["led.control.pin"], INPUT_PULLUP;
             log = false
         )
         @assert !isempty(pkg["done_ack"])
@@ -54,10 +54,10 @@ end
 
 # meta
 CONC_DICT = Dict(
-    "CH2" => "dev", 
-    "CH3" => "dev", 
-    "CH4" => "dev", 
-    "CH5" => "dev", 
+    "R2" => "dev", 
+    "R3" => "dev", 
+    "R4" => "dev", 
+    "R5" => "dev", 
 )
 
 @assert all(haskey(CONC_DICT, id) for id in CHIDs)
@@ -120,7 +120,7 @@ let
                 # read sensors 1
                 @time pkg1 = send_csvcmd(sp, 
                     "INO", "PULSE-IN", 
-                    CONFIG[CHID]["led1.pin"], 100;
+                    CONFIG[CHID]["led.control.pin"], 100;
                     log = false
                 )
                 isempty(pkg1["done_ack"]) && continue
@@ -129,7 +129,7 @@ let
                 # read sensors 2
                 @time pkg2 = send_csvcmd(sp, 
                     "INO", "PULSE-IN", 
-                    CONFIG[CHID]["led2.pin"], 100;
+                    CONFIG[CHID]["led.sample.pin"], 100;
                     log = false
                 )
                 isempty(pkg2["done_ack"]) && continue

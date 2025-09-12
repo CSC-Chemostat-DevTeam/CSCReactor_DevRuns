@@ -17,7 +17,7 @@ end
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
 # PinMode
 let
-    CHIDs = ["CH3", "CH5"]
+    CHIDs = ["R3", "R5"]
 
     for CHID in CHIDs
         CH = CONFIG[CHID]
@@ -62,14 +62,14 @@ let
     # Dilution setting
     TARGET_DS = Dict(
         "D0" => 0.0,
-        "CH3" => 581.4 / 2, # correction factor
-        "CH5" => 510.6 / 2  # correction factor
+        "R3" => 581.4 / 2, # correction factor
+        "R5" => 510.6 / 2  # correction factor
     )
     # META
-    CONFIG["CH3"]["ch.name"] = "CH3:50%LB.DIL.ONIGHT.RUN.$(now())"
-    CONFIG["CH5"]["ch.name"] = "CH5:100%LB.DIL.ONIGHT.RUN.$(now())" 
+    CONFIG["R3"]["R.name"] = "CH3:50%LB.DIL.ONIGHT.RUN.$(now())"
+    CONFIG["R5"]["R.name"] = "CH5:100%LB.DIL.ONIGHT.RUN.$(now())" 
         
-    CHIDs = ["CH3", "CH5"]
+    CHIDs = ["R3", "R5"]
     _pump_medium_in = () -> let
         for CHID in CHIDs
             _tper = TARGET_DS["D0"] * TARGET_DS[CHID] # pulses / hour

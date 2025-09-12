@@ -21,14 +21,14 @@ end
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
 # META
 let
-    CONFIG["CH3"]["ch.name"] = "CH3:10%LB.BASH.$(now())"
-    CONFIG["CH5"]["ch.name"] = "CH5:1.0%LB.BASH.$(now())"
+    CONFIG["R3"]["R.name"] = "CH3:10%LB.BASH.$(now())"
+    CONFIG["R5"]["R.name"] = "CH5:1.0%LB.BASH.$(now())"
 end
 
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
 # PinMode
 let
-    CHIDs = ["CH3", "CH5"]
+    CHIDs = ["R3", "R5"]
 
     for CHID in CHIDs
         CH = CONFIG[CHID]
@@ -38,7 +38,7 @@ end
     
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
 let
-    CHIDs = ["CH3", "CH5"]
+    CHIDs = ["R3", "R5"]
 
     for it in 1:Int(1e10)
         for CHID in CHIDs

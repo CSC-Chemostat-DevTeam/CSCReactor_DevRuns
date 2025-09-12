@@ -46,16 +46,16 @@ let
         "pump.media.in.time" => [],
     )
     global OD_POOL = Dict(
-        "CH3" => deepcopy(_obj),
-        "CH5" => deepcopy(_obj),
+        "R3" => deepcopy(_obj),
+        "R5" => deepcopy(_obj),
     )
 
     val0 = 10000
     sorted_foreach(LOGS) do dt_str, dat
         dt = DateTime(dt_str)
 
-        haskey(dat, "log.cmt") || return :continue
-        cmt = dat["log.cmt"]
+        haskey(dat, "tag") || return :continue
+        cmt = dat["log_extras"]
         haskey(dat, "responses") || return :continue
         haskey(dat, "echo") || return :continue
 
@@ -63,47 +63,47 @@ let
         if contains(cmt, ".laser-on.")
             if _is_match(r"CH3:.*\.laser-on", cmt)
                 pwm = parse(Int, dat["echo"]["tokens"][4])
-                push!(OD_POOL["CH3"]["laser.pwm"], pwm)
+                push!(OD_POOL["R3"]["laser.pwm"], pwm)
             elseif _is_match(r"CH5:.*\.laser-on", cmt)
                 pwm = parse(Int, dat["echo"]["tokens"][4])
-                push!(OD_POOL["CH5"]["laser.pwm"], pwm)
+                push!(OD_POOL["R5"]["laser.pwm"], pwm)
             end
         end
         
         
         if contains(cmt, "pump.medium.in")
             if _is_match(r"CH5:.*", cmt)
-                push!(OD_POOL["CH5"]["pump.media.in.time"], dt)
+                push!(OD_POOL["R5"]["pump.media.in.time"], dt)
             end
             if _is_match(r"CH3:.*", cmt)
-                push!(OD_POOL["CH3"]["pump.media.in.time"], dt)
+                push!(OD_POOL["R3"]["pump.media.in.time"], dt)
             end
         end
         
         if contains(cmt, ".pulse-in.")
             if _is_match(r"CH5:.*\.pulse-in.led1", cmt)
                 val = parse(Int, dat["responses"][0]["data"][2])
-                push!(OD_POOL["CH5"]["led1.val"], val)
-                push!(OD_POOL["CH5"]["led1.time"], dt)
-                push!(OD_POOL["CH5"]["led1.cmt"], cmt)
+                push!(OD_POOL["R5"]["led1.val"], val)
+                push!(OD_POOL["R5"]["led1.time"], dt)
+                push!(OD_POOL["R5"]["led1.cmt"], cmt)
             end
             if _is_match(r"CH5:.*\.pulse-in.led2", cmt)
                 val = parse(Int, dat["responses"][0]["data"][2])
-                push!(OD_POOL["CH5"]["led2.val"], val)
-                push!(OD_POOL["CH5"]["led2.time"], dt)
-                push!(OD_POOL["CH5"]["led2.cmt"], cmt)
+                push!(OD_POOL["R5"]["led2.val"], val)
+                push!(OD_POOL["R5"]["led2.time"], dt)
+                push!(OD_POOL["R5"]["led2.cmt"], cmt)
             end
             if _is_match(r"CH3:.*\.pulse-in.led1", cmt)
                 val = parse(Int, dat["responses"][0]["data"][2])
-                push!(OD_POOL["CH3"]["led1.val"], val)
-                push!(OD_POOL["CH3"]["led1.time"], dt)
-                push!(OD_POOL["CH3"]["led1.cmt"], cmt)
+                push!(OD_POOL["R3"]["led1.val"], val)
+                push!(OD_POOL["R3"]["led1.time"], dt)
+                push!(OD_POOL["R3"]["led1.cmt"], cmt)
             end
             if _is_match(r"CH3:.*\.pulse-in.led2", cmt)
                 val = parse(Int, dat["responses"][0]["data"][2])
-                push!(OD_POOL["CH3"]["led2.val"], val)
-                push!(OD_POOL["CH3"]["led2.time"], dt)
-                push!(OD_POOL["CH3"]["led2.cmt"], cmt)
+                push!(OD_POOL["R3"]["led2.val"], val)
+                push!(OD_POOL["R3"]["led2.time"], dt)
+                push!(OD_POOL["R3"]["led2.cmt"], cmt)
             end
             return :continue
         end
@@ -113,13 +113,13 @@ end
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
 # Align
 let
-    for (k, ser) in OD_POOL["CH5"]
+    for (k, ser) in OD_POOL["R5"]
         k == "laser.pwm" && continue
         k == "pump.media.in.time" && continue
         k == "led2.val" && continue
         t1 = 24420
         t2 = t1 + 1
-        OD_POOL["CH5"][k] = [ser[1:t1]; ser[t2+1:end]]
+        OD_POOL["R5"][k] = [ser[1:t1]; ser[t2+1:end]]
     end
 end
 
@@ -128,8 +128,8 @@ end
 # write
 let
     # OD
-    # for CHID in ["CH5"]
-    for CHID in ["CH3", "CH5"]
+    # for CHID in ["R5"]
+    for CHID in ["R3", "R5"]
 
         dat0 = OD_POOL[CHID]
         cmt = dat0["led1.cmt"]
@@ -169,7 +169,7 @@ let
     end
 
     # PUMP.IN
-    for CHID in ["CH3", "CH5"]
+    for CHID in ["R3", "R5"]
         global dat0 = OD_POOL[CHID]
         timetag = dat0["pump.media.in.time"]
 
@@ -198,7 +198,7 @@ end
 let
     f = Figure(; size = (500,800))
     
-    for (i, CHID) in enumerate(["CH3", "CH5"])
+    for (i, CHID) in enumerate(["R3", "R5"])
         
         timetag = OD_POOL[CHID]["led1.time"]
         val1 = float.(OD_POOL[CHID]["led1.val"])
@@ -207,7 +207,7 @@ let
         N = length(timetag)
         
         # align
-        # if CHID == "CH5"
+        # if CHID == "R5"
         #     t1 = 24420
         #     t2 = t1 + 1
         #     timetag = [timetag[1:t1]; timetag[t2+1:end]]
@@ -263,7 +263,7 @@ end
 
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
 let
-    tts = OD_POOL["CH3"]["pump.media.in.time"]
+    tts = OD_POOL["R3"]["pump.media.in.time"]
     _diff = diff(tts)
     _diff = getfield.(_diff, :value)
     # _diff = _diff[600:1000]
@@ -283,7 +283,7 @@ let
     f = Figure()
     ax = Axis(f[1,1])
 
-    CHID = "CH3"
+    CHID = "R3"
     timetag = OD_POOL[CHID]["led1.time"]
     val1 = OD_POOL[CHID]["led1.val"]
     val2 = OD_POOL[CHID]["led2.val"]
@@ -329,7 +329,7 @@ end
 #                 # filter log
 #                 # "INO:PULSE-IN:29:100 -> control
 #                 csvline = dat0["echo"]["csvline"]
-#                 led1_pin = ch["led1.pin"]
+#                 led1_pin = ch["led.control.pin"]
 #                 if startswith(csvline, "INO:PULSE-IN:$(led1_pin)")
 #                     date = DateTime(date_str)
 #                     led_read = parse(Int, dat0["responses"][0]["data"][2])
@@ -338,7 +338,7 @@ end
 #                 end
 #                 # "INO:PULSE-IN:33:100 -> vial
 #                 csvline = dat0["echo"]["csvline"]
-#                 led2_pin = ch["led2.pin"]
+#                 led2_pin = ch["led.sample.pin"]
 #                 if startswith(csvline, "INO:PULSE-IN:$(led2_pin)")
 #                     date = DateTime(date_str)
 #                     led_read = parse(Int, dat0["responses"][0]["data"][2])
@@ -387,11 +387,11 @@ end
     
 #     scatter!(ax, 
 #         (led1_date_vec .- led1_date_vec[1]), led1_read_vec; 
-#         label = "$(ch["ch.name"]).l1"
+#         label = "$(ch["R.name"]).l1"
 #     )
 #     scatter!(ax, 
 #         (led1_date_vec .- led1_date_vec[1]), led2_read_vec; 
-#         label = "$(ch["ch.name"]).l2"
+#         label = "$(ch["R.name"]).l2"
 #     )
 #     axislegend(ax, position = :lb)
 

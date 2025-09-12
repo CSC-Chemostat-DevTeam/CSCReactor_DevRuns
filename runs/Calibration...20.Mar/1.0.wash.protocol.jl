@@ -17,7 +17,7 @@ end
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
 # Wash protocole
 let
-    CHIDs = ["CH3", "CH5"]
+    CHIDs = ["R3", "R5"]
 
     for CHID in CHIDs
         CH = CONFIG[CHID]

@@ -63,7 +63,7 @@ end
 #                 # filter log
 #                 # "INO:PULSE-IN:29:100 -> control
 #                 csvline = dat0["echo"]["csvline"]
-#                 led1_pin = ch["led1.pin"]
+#                 led1_pin = ch["led.control.pin"]
 #                 if startswith(csvline, "INO:PULSE-IN:$(led1_pin)")
 #                     date = DateTime(date_str)
 #                     led_read = parse(Int, dat0["responses"][0]["data"][2])
@@ -72,7 +72,7 @@ end
 #                 end
 #                 # "INO:PULSE-IN:33:100 -> vial
 #                 csvline = dat0["echo"]["csvline"]
-#                 led2_pin = ch["led2.pin"]
+#                 led2_pin = ch["led.sample.pin"]
 #                 if startswith(csvline, "INO:PULSE-IN:$(led2_pin)")
 #                     date = DateTime(date_str)
 #                     led_read = parse(Int, dat0["responses"][0]["data"][2])
@@ -121,11 +121,11 @@ end
     
 #     scatter!(ax, 
 #         (led1_date_vec .- led1_date_vec[1]), led1_read_vec; 
-#         label = "$(ch["ch.name"]).l1"
+#         label = "$(ch["R.name"]).l1"
 #     )
 #     scatter!(ax, 
 #         (led1_date_vec .- led1_date_vec[1]), led2_read_vec; 
-#         label = "$(ch["ch.name"]).l2"
+#         label = "$(ch["R.name"]).l2"
 #     )
 #     axislegend(ax, position = :lb)
 

@@ -115,7 +115,7 @@ uuid = "4e9b3aee-d8a1-5a3d-ad8b-7d824db253f0"
 version = "1.0.1+0"
 
 [[deps.CSCReactor_jlOs]]
-deps = ["Dates", "LibSerialPort", "Serialization"]
+deps = ["Dates", "LibSerialPort", "Reexport", "Serialization"]
 path = "/Users/Pereiro/.julia/dev/CSCReactor_jlOs"
 pinned = true
 uuid = "388fa371-fe3d-443c-9121-b1096b353e97"

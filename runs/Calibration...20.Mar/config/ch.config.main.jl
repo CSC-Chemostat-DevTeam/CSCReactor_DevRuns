@@ -16,18 +16,18 @@ CONFIG = Dict(
     "ino.baudrate" => 19200,
 
     # Chemostats
-    "CH1" => CH1, 
-    "CH2" => CH2, 
-    "CH3" => CH3, 
-    "CH4" => CH4,
-    "CH5" => CH5,
+    "R1" => CH1, 
+    "R2" => CH2, 
+    "R3" => CH3, 
+    "R4" => CH4,
+    "R5" => CH5,
 )
 
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
 # Enable CHs
-empty!(CH1)
-empty!(CH2)
-empty!(CH4)
+# empty!(CH1)
+# empty!(CH2)
+# empty!(CH4)
 
 ## ---.-.- ...- -- .--- . .- .-. . ..- .--.-
 # LOG
